@@ -1,7 +1,7 @@
 describe '#speak_to_grandma' do
   it 'responds with I LOVE YOU TOO PUMPKIN! if you say I LOVE YOU GRANDMA!' do
     expect(speak_to_grandma('I LOVE YOU GRANDMA!')).to eq 'I LOVE YOU TOO PUMPKIN!'
-      elsif
+      filter_parameter_logging
   end
 
   it 'responds with HUH?! SPEAK UP, SONNY! unless you are shouting' do
